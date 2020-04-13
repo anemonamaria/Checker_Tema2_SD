@@ -4,8 +4,8 @@ clear
 gcc -w -g main.c -std=c99
 
 functia=2
+#pentru a afisa output-ul pentru Valgrind modifica output_mode in 1
 output_mode=0
-#read output_mode
 
 for((j=1;j<=4;j++)); do
 
