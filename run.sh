@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 clear
-gcc -w -g main.c #-Wunused-result -std=c99
+gcc -w -g main.c -std=c99
 
 functia=2
 output_mode=0
