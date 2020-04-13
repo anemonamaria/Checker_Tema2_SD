@@ -12,7 +12,6 @@ for((j=1;j<=4;j++)); do
 echo -e "\e[1;33m///////////////////////////// TASK-ul $j //////////////////////////////////\e[0m"
 
 FILE_NAME=$(date +%s)
-#echo $FILE_NAME
 
 for((i=1;i<=5;i++)); do
 
